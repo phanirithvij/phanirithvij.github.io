@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>blog on Rithvij&#39;s blog</title>
+    <title>Blog on Rithvij&#39;s blog</title>
     <link>https://phanirithvij.github.io/tags/blog/</link>
-    <description>Recent content in blog on Rithvij&#39;s blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Blog on Rithvij&#39;s blog</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Apr 2021 17:09:04 +0530</lastBuildDate><atom:link href="https://phanirithvij.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Apr 2021 17:09:04 +0530</lastBuildDate>
+    <atom:link href="https://phanirithvij.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Keeping Track of your Mistakes</title>
       <link>https://phanirithvij.github.io/posts/keeping-track-of-mistakes/</link>
       <pubDate>Fri, 30 Apr 2021 17:09:04 +0530</pubDate>
-      
       <guid>https://phanirithvij.github.io/posts/keeping-track-of-mistakes/</guid>
-      <description>TL;DR  Start keeping track of your mistakes. &amp;ldquo;Mistakes&amp;rdquo;, here refer to what you&amp;rsquo;ve learnt but not what you&amp;rsquo;ve abandoned.
- Either add them to your existing blog or start blogging now. Or just Keep track of them in a dedicated git repository Or Use symlinks or git worktree to connect it to your project.  My suggestion
- I recommend a docs/learnings directory in each of your projects gitignored and symlinked to the dedicated repo and hosting it as a blog for you to revisit.</description>
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Start keeping track of your mistakes. &amp;ldquo;Mistakes&amp;rdquo;, here refer to what you&amp;rsquo;ve learnt but not what you&amp;rsquo;ve abandoned.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Either add them to your existing blog or start blogging now.&lt;/li&gt;&#xA;&lt;li&gt;Or just Keep track of them in a dedicated git repository&lt;/li&gt;&#xA;&lt;li&gt;Or Use symlinks or &lt;code&gt;git worktree&lt;/code&gt; to connect it to your project.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;My suggestion&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;I recommend a &lt;code&gt;docs/learnings&lt;/code&gt; directory in each of your projects gitignored and symlinked to the dedicated repo and hosting it as a blog for you to revisit.&lt;/li&gt;&#xA;&lt;/ul&gt;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;To err is human.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
