@@ -131,6 +131,20 @@ jobs:
           mkdir -p deploy_dist/templates/provider
           cp -rL /tmp/template-provider/result/. deploy_dist/templates/provider/
 
+      - name: Cache git-pages-cli
+        id: cache-gpc
+        uses: actions/cache@v4
+        with:
+          path: git-pages-cli
+          key: git-pages-cli-static-${{ runner.os }}-${{ hashFiles('flake.lock') }}
+
+      - name: Build static git-pages-cli
+        if: steps.cache-gpc.outputs.cache-hit != 'true'
+        run: |
+          nix build nixpkgs#pkgsStatic.git-pages-cli -o gpc-result
+          cp gpc-result/bin/git-pages-cli ./git-pages-cli
+          chmod +x ./git-pages-cli
+
       # Deployment
       - name: Upload preview UI
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
